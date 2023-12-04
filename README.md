@@ -35,15 +35,18 @@ I decided to use the validation methods, we were using in class, since they are 
 1)KNN (for visualisation please see ipynb file, there are confusion matrises plotted there)
 
 Accuracy: 0.9576453697056713
+
 Confusion matrix:
+
 [[1183    2]
  [  57  151]]
+ 
 Classification Report:
+
               precision    recall  f1-score   support
 
            0       0.95      1.00      0.98      1185
            1       0.99      0.73      0.84       208
-
     accuracy                           0.96      1393
    macro avg       0.97      0.86      0.91      1393
 weighted avg       0.96      0.96      0.95      1393
@@ -56,15 +59,17 @@ Is that rather often the fradoulent message is not being identified as such, whi
 2)SVM (for visualisation please see ipynb file, there are confusion matrises plotted there)
 
 Accuracy: 0.9777458722182341
+
 Confusion matrix:
+
 [[1185    0]
  [  31  177]]
+ 
 Classification Report:
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
            0       0.97      1.00      0.99      1185
            1       1.00      0.85      0.92       208
-
     accuracy                           0.98      1393
    macro avg       0.99      0.93      0.95      1393
 weighted avg       0.98      0.98      0.98      1393
@@ -75,15 +80,17 @@ So the model will not intercept "good" messages, which is very important for us,
 3)Artificial neural network (for visualisation please see ipynb file, there are confusion matrises plotted there)
 
 Accuracy: 0.8657573582196698
+
 Confusion matrix:
+
 [[1206    0]
  [ 187    0]]
+ 
 Classification Report:
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
            0       0.87      1.00      0.93      1206
            1       0.00      0.00      0.00       187
-
     accuracy                           0.87      1393
    macro avg       0.43      0.50      0.46      1393
 weighted avg       0.75      0.87      0.80      1393
