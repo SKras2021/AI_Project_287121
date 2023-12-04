@@ -46,9 +46,13 @@ Classification Report:
               precision    recall  f1-score   support
 
            0       0.95      1.00      0.98      1185
+           
            1       0.99      0.73      0.84       208
+           
     accuracy                           0.96      1393
+    
    macro avg       0.97      0.86      0.91      1393
+   
 weighted avg       0.96      0.96      0.95      1393
 
 We have got a pretty decent results. 95% accuracy is a good approximation for such a diffiult task (natural language).
